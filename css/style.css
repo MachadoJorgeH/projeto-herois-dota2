@@ -65,19 +65,58 @@ span {
 
 .subtitle-universal {
   color: #00ffd5;
+  font-size: 1em;
+  font-weight: bold; 
+  display:inline-flex;
+  align-items: center;
+}
+
+.subtitle-universal::after {
+  content: url(https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/hero_universal.png);
+   margin-left: 10px;
 }
 
 .subtitle-forca {
   color: #e20606;
+  font-size: 1em;
+  font-weight: bold; 
+  display:inline-flex;
+  align-items: center;
+}
+
+.subtitle-forca::after {
+  content: url(https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/hero_strength.png);
+   margin-left: 10px;
 }
 
 .subtitle-agilidade {
   color: rgb(0, 255, 42);
+  font-size: 1em;
+  font-weight: bold; 
+  display:inline-flex;
+  align-items: center;
+}
+
+.subtitle-agilidade::after {
+  content: url(https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png);
+   margin-left: 10px;
+   margin-bottom: 10px;
+   display: inline-block;
 }
 
 .subtitle-inteligencia {
   color: rgb(66, 97, 238);
+  font-size: 1em;
+  font-weight: bold; 
+  display:inline-flex;
+  align-items: center;
 }
+
+.subtitle-inteligencia::after {
+  content: url(https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/hero_intelligence.png);
+   margin-left: 10px;
+}
+
 
 .hero-section {
   display: flex;
@@ -178,6 +217,28 @@ span {
 
 .personagens-descricao section {
   margin-bottom: 3rem;
+}
+
+.hero-skills {
+  display: flex; 
+  gap: 10px; 
+  flex-wrap: wrap; 
+  margin-bottom: 1rem; 
+  padding: 0; 
+  list-style: none; 
+}
+
+.hero-skills li {
+  display: inline-block; 
+  align-items: right;
+  margin-left: 1.5rem;
+}
+
+.hero-skills li img {
+  width: 50px; /* Define a largura das imagens */
+  height: auto; /* Mantém a proporção da altura automaticamente */
+  object-fit: cover;
+  margin-left: 1px;
 }
 
 
