@@ -12,7 +12,7 @@ Este é um projeto de uma página que contém alguns heróis do jogo Dota 2 dese
 
 ## Acesse o Projeto Online 🌐
 
-[Veja o projeto no GitHub Pages](https://machadojorgeh.github.io/Projeto-Portifolio/)
+[Veja o projeto no GitHub Pages](https://machadojorgeh.github.io/projeto-herois-dota2/)
 
 ## Imagens do Projeto 📸
 
