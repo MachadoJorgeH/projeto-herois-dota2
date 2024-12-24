@@ -13,9 +13,8 @@ ul {
 }
 
 body {
- 
- background: linear-gradient(to bottom, #000000, #272727);
-  background-size:cover;
+  background: linear-gradient(to bottom, #000000, #272727);
+  background-size: cover;
   background-attachment: fixed;
   color: #c2c2c2;
   -webkit-font-smoothing: antialiased;
@@ -50,12 +49,12 @@ body {
   letter-spacing: .1em;
 }
 
-.menu li a:hover{
+.menu li a:hover {
   background: #fffafa15;
   border-radius: 10px;
 }
 
-span{
+span {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .1em;
@@ -64,19 +63,19 @@ span{
   display: block;
 }
 
-.subtitle-universal{
-  color:#00ffd5;
+.subtitle-universal {
+  color: #00ffd5;
 }
 
-.subtitle-forca{
-  color:#e20606;
+.subtitle-forca {
+  color: #e20606;
 }
 
-.subtitle-agilidade{
+.subtitle-agilidade {
   color: rgb(0, 255, 42);
 }
 
-.subtitle-inteligencia{
+.subtitle-inteligencia {
   color: rgb(66, 97, 238);
 }
 
@@ -99,7 +98,6 @@ span{
   grid-column: 2 / 4;
   width: 100%;
   box-sizing: border-box;
-  
   padding: 10px;
   display: grid;
   grid-template-columns: 90px 300px 1fr;
@@ -115,7 +113,6 @@ span{
   transform: scale(1.1);
 }
 
-
 .titulo {
   font-family: 'Helvetica', georgia;
   font-size: 6rem;
@@ -125,66 +122,64 @@ span{
   grid-column: 1 / 4;
 }
 
-.animais h2 {
+.personagens h2 {
   font-family: 'Helvetica', monospace;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-bottom: 1rem;
-  color: #ff0000
-  
+  color: #ff0000;
 }
 
-.animais h2::before {
+.personagens h2::before {
   content: url(https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/hero_universal.png);
   display: inline-block;
   width: 40px;
   height: 20px;
   margin-right: 10px;
-  }
+}
 
-
-
-.animais p {
+.personagens p {
   font-family: Helvetica, Arial;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
 
-.animais-lista {
+.personagens-lista {
   height: 370px;
   overflow-y: scroll;
   grid-column: 2;
 }
 
-.animais-lista li {
+.personagens-lista li {
   cursor: pointer;
 }
 
-.animais-lista::-webkit-scrollbar {
+.personagens-lista::-webkit-scrollbar {
   width: 18px;
-  border-radius:10px;
+  border-radius: 10px;
 }
 
-.animais-lista::-webkit-scrollbar-thumb {
+.personagens-lista::-webkit-scrollbar-thumb {
   background: linear-gradient(to bottom, #000000, #383838);
   border-left: 4px solid #faf6ed;
   border-right: 4px solid #faf6ed;
   border-radius: 10px;
 }
 
-.animais-lista::-webkit-scrollbar-track {
+.personagens-lista::-webkit-scrollbar-track {
   background: #faf6ed;
-  border-radius:10px;
+  border-radius: 10px;
 }
 
-.animais-descricao {
+.personagens-descricao {
   grid-column: 3;
 }
 
-.animais-descricao section {
+.personagens-descricao section {
   margin-bottom: 3rem;
 }
+
 
 .faq-lista {
   grid-column: 2 / 4
