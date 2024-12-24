@@ -17,7 +17,7 @@ Este é um projeto de uma página que contém alguns heróis do jogo Dota 2 dese
 ## Imagens do Projeto 📸
 
 
-![image](TelaInicial.jpg)
+![image](./img/TelaInicial.jpg)
 
 
 
